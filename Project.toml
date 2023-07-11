@@ -1,0 +1,13 @@
+name = "DifferentiableWasserstein"
+uuid = "dc0500a2-ca5f-4e9f-b764-e9aad48a3f00"
+authors = ["Xiangting Li"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
